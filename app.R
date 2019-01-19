@@ -1,5 +1,3 @@
-#rm(list=ls(all=T))
-#getwd()
 #setwd("C:\\Users\\aksha\\Desktop")
 data<-read.csv("CAVS_DATA.csv")
 cavs_points<-data[,c("PLAYER","PTS","OPPONENT")]
